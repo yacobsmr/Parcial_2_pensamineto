@@ -34,7 +34,7 @@ def ordenar_burbuja(lista):
     
     # con returnla lista ordenada
     # Después de todos los ciclos, la lista está completamente ordenada
-    # En Python, las listas son mutables, así que la lista original ya fue modificada
+    # Elas listas son mutables, así que la lista original ya fue modificada
     # Pero devolvemos la referencia para que se pueda usar el resultado
     return lista
 
@@ -45,7 +45,7 @@ def obtener_lista():
     # input() muestra el mensaje y espera que el usuario escriba
     # La entrada se almacena como una cadena de texto en "entrada"
     # Ejemplo: si el usuario escribe "5 2 8 1", entrada = "5 2 8 1"
-    entrada = input("Ingrese una lista de numeros separados por espacios: ")
+    entrada = input("Ingrese una lista: ")
     
     # Dividimos la cadena en números individuales
     # entrada.split() divide la cadena por espacios y crea una lista de textos
